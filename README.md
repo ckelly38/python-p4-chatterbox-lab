@@ -248,3 +248,8 @@ Build out the following routes to handle the necessary CRUD actions:
 
 [cors mdn]: https://developer.mozilla.org/en-US/docs/Web/HTTP/CORS
 [flask-cors]: https://flask-cors.readthedocs.io/en/latest/
+
+https://stackoverflow.com/questions/10999990/get-raw-post-body-in-python-flask-regardless-of-content-type-header
+Was helpful for extracting raw data from the headers. Although I did not use the method suggested, this did show me exactly what I needed to use to get the raw data in most cases.
+The lab on the other hand did not tell me how to do this. Since up to this point we have only been using request.form and getting and setting the attributes using setattribute
+though this does not take into account the bug when dealing with the DateTime class.
